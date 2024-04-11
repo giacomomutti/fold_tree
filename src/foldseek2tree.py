@@ -184,13 +184,9 @@ def postprocess(t, outree, delta=0 ):
 	#make negative branch lengths a small delta instead
 	with open(t) as treein:
 		treestr = ' '.join( [ i.strip() for i in treein ] )
-
 	#tre = toytree.tree(treestr,tree_format=0 )
-	
 	tre = toytree.tree(treestr)
-
 	print(tre)
-
 	for n in tre.treenode.traverse():
 		if n.dist< 0:
 			n.dist = delta
