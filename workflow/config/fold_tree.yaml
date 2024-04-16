@@ -23,12 +23,12 @@ dependencies:
   - biopython
   - pycairo
   - numpy
+  - toytree=2.0.1
   - pip:
     - tqdm
     - wget
     - numpy
     - statsmodels
-    - toytree
     - toyplot
     - requests
     
