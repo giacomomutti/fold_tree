@@ -27,3 +27,5 @@ prob_threshold : "0.9"
 qcov_threshold : "70"
 scov_threshold : "0"
 evalue_threshold : "1e-05"
+
+sptree: "/gpfs/projects/bsc40/current/gmutti/projects/structural_phylome/data/sptrees/QFO.nwk"
